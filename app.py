@@ -12,6 +12,6 @@ df = pd.DataFrame(
     columns=['x', 'y'])
 st.line_chart(df)
 
-df = pd.DataFrame(np.random.randn(500, 2) / [50, 50] + [37.76, -122.4],
+ds = pd.DataFrame(np.random.randn(500, 2) / [50, 50] + [37.76, -122.4],
 columns=['lat', 'lon']
-st.map(df)
+st.map(ds)
